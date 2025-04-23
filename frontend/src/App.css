@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to right, #4c6ef5, #7e5fff, #f9a8d4); /* Same as the Hero section */
+    color: white; /* Ensure text is readable */
+    font-family: 'Inter', sans-serif; /* Or any font that you use across your app */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+  }

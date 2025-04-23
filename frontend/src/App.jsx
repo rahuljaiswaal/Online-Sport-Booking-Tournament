@@ -26,6 +26,7 @@ import TicketBuy from "./user/TicketBuy.jsx";
 import Footer from "./shared/Footer.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+// import 
 
 const App = () => {
   const Navigate = useNavigate();
@@ -65,7 +66,7 @@ const App = () => {
         {/* <Route path="*" element={<Navigate to="/venue-admin-dashboard/:id" replace />} /> */}
         <Route path="/register" element= {<Register/>} />
       </Routes>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 };
