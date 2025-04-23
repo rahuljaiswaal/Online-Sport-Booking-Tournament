@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 export const ApiContext = createContext();
 
 export const ApiProvider = ({ children }) => {
-  const locateRoute = "http://localhost:5000"; // ✅ Fix: Add 'http://'
+  const locateRoute = "https://online-sport-booking-tournament.onrender.com"; // "http://localhost:5000"; // ✅ Fix: Add 'http://'
   
   const navigate = useNavigate();
   // Global State
